@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "example-1",
+    "Name": "Servidor Local - Windows Auth",
+    "Server": "localhost",
+    "Database": "master",
+    "Username": "",
+    "Password": "",
+    "IntegratedSecurity": true,
+    "ConnectionTimeout": 30,
+    "CommandTimeout": 30,
+    "TrustServerCertificate": true,
+    "CreatedAt": "2024-01-01T00:00:00",
+    "LastTested": null,
+    "LastTestResult": null
+  },
+  {
+    "Id": "example-2",
+    "Name": "Servidor Remoto - SQL Auth",
+    "Server": "servidor.empresa.com,1433",
+    "Database": "MiBaseDeDatos",
+    "Username": "usuario_sql",
+    "Password": "mi_contraseña_segura",
+    "IntegratedSecurity": false,
+    "ConnectionTimeout": 30,
+    "CommandTimeout": 30,
+    "TrustServerCertificate": true,
+    "CreatedAt": "2024-01-01T00:00:00",
+    "LastTested": null,
+    "LastTestResult": null
+  }
+]

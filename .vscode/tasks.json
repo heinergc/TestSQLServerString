@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"command": "dotnet build",
+			"args": [],
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "run",
+			"type": "shell",
+			"command": "dotnet run",
+			"args": [],
+			"isBackground": false,
+			"group": "test"
+		}
+	]
+}
